@@ -1,3 +1,6 @@
+## Description ##
+
+This is a front end solution to chat-gpt hosted on AWS.
 Visit https://astrolo-gpt.com for the live site.  
 This is the server portion of a modified Webflow export build I made for creating a Web Application using Webflow as the designer,building a Node.js app and hosting it all from AWS servers.
 You can use this clone or even modify your own design and follow my guide to get it all set up. You will be required to export the Webflow build so keep that in mind.
