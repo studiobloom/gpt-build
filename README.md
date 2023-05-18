@@ -37,7 +37,7 @@ I almost wish there were lower tiers...
 1A. Prior to setting things up on your Virtual Machine (which can be very slow to use) you may want to skip
    to complete ONLY Step 1. of ## Server Setup on your local machine prior to moving the build over to AWS
 1. Sign in to the AWS Management Console and go to the EC2 Dashboard. Click on "Launch Instance" and choose Windows AMI
-2. Select the 't3.nano' instance type. This is the cheapest tier, be patient with the weak virtual machine, you are saving money:)
+2. Select the `t3.nano` instance type. This is the cheapest tier, be patient with the weak virtual machine, you are saving money:)
 3. Allow all incoming traffic by selecting "All traffic" in the "Security groups" settings.
 4. Review the instance configuration and click "Launch" to start the instance. Choose the option to create a new key pair. 
    Enter a name for the key pair, then click "Download Key Pair". This will download a .pem file, which will be used for SSH access.
@@ -99,10 +99,10 @@ The server uses node.js, express.js, and greenlock for SSL/TLS certificates. The
     }
     ```
 6. Modify and run the following command in the server folder to obtain the SSL/TLS certificates:
-./node_modules/greenlock-express/acme.js --config-dir ./greenlock.d --maintainer-email YOUR-EMAIL@EMAIL.COM --agree-to-terms
+`./node_modules/greenlock-express/acme.js --config-dir ./greenlock.d --maintainer-email YOUR-EMAIL@EMAIL.COM --agree-to-terms`
 7. Once the certificate generation process is complete (this can take a bit sometimes), follow the instructions in the email to verify your domain ownership. 
    Once the verification is complete, the SSL/TLS certificates will be generated successfully and your site will now serve securely from https://
 
 ## Running the Server ##
 
-Open server.bat to run the server and boom you are live!
+Open `server.bat` to run the server and boom you are live!
