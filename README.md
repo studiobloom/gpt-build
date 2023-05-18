@@ -1,5 +1,5 @@
 Visit https://astrolo-gpt.com for the live site.  
-This is a Webflow clone that's a part of a guide/template I made for creating a Web Application using Webflow as the designer, and building a Node.js app while hosting it all from AWS servers.
+This is the server portion of a modified Webflow export build I made for creating a Web Application using Webflow as the designer,building a Node.js app and hosting it all from AWS servers.
 You can use this clone or even modify your own design and follow my guide to get it all set up. You will be required to export the Webflow build so keep that in mind.
 
 
