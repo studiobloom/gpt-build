@@ -106,3 +106,6 @@ The server uses node.js, express.js, and greenlock for SSL/TLS certificates. The
 ## Running the Server ##
 
 Open `server.bat` to run the server and boom you are live!
+
+## Credits ##
+This node.js api gateway and webflow clone were created by John Large (aka bloom) and is available at GitHub. Visit the website for more information and updates.
